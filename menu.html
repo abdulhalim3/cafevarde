@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu — Café Verde</title>
+<meta name="description" content="Browse Café Verde's full menu — breakfast, lunch, drinks, and desserts made fresh every day." />
+<meta property="og:title" content="Menu — Café Verde" />
+<meta property="og:description" content="Freshly prepared food, handcrafted drinks, and delicious treats for every moment." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="logo">Café <span>Verde</span></a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <div class="social-inline">
+        <a href="https://facebook.com/YOUR_CAFE_PAGE" aria-label="Café Verde on Facebook" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg>
+        </a>
+        <a href="https://youtube.com/@YOUR_CAFE_CHANNEL" aria-label="Café Verde on YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.5s-.23-1.64-.94-2.36c-.9-.95-1.9-.95-2.36-1.01C16.87 2.8 12 2.8 12 2.8h-.01s-4.87 0-8.2.33c-.46.06-1.46.06-2.36 1.01C.72 4.86.5 6.5.5 6.5S.27 8.4.27 10.31v1.38c0 1.9.23 3.81.23 3.81s.22 1.64.93 2.36c.9.95 2.08.92 2.6 1.02 1.89.18 8.02.32 8.02.32s4.87 0 8.2-.33c.46-.06 1.46-.06 2.36-1.01.71-.72.94-2.36.94-2.36s.23-1.9.23-3.81v-1.38c0-1.9-.23-3.81-.23-3.81ZM9.6 14.6V7.9l6.4 3.36-6.4 3.34Z"/></svg>
+        </a>
+      </div>
+      <a class="btn btn-primary" href="mailto:khdreamit@gmail.com?subject=Hello%20Caf%C3%A9%20Verde">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+        Email Us
+      </a>
+    </div>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+    </button>
+  </div>
+
+  <div class="mobile-panel">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn btn-primary" href="mailto:khdreamit@gmail.com?subject=Hello%20Caf%C3%A9%20Verde">Email Us</a>
+    <div class="social-inline">
+      <a href="https://facebook.com/YOUR_CAFE_PAGE" aria-label="Café Verde on Facebook" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg>
+      </a>
+      <a href="https://youtube.com/@YOUR_CAFE_CHANNEL" aria-label="Café Verde on YouTube" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.5s-.23-1.64-.94-2.36c-.9-.95-1.9-.95-2.36-1.01C16.87 2.8 12 2.8 12 2.8h-.01s-4.87 0-8.2.33c-.46.06-1.46.06-2.36 1.01C.72 4.86.5 6.5.5 6.5S.27 8.4.27 10.31v1.38c0 1.9.23 3.81.23 3.81s.22 1.64.93 2.36c.9.95 2.08.92 2.6 1.02 1.89.18 8.02.32 8.02.32s4.87 0 8.2-.33c.46-.06 1.46-.06 2.36-1.01.71-.72.94-2.36.94-2.36s.23-1.9.23-3.81v-1.38c0-1.9-.23-3.81-.23-3.81ZM9.6 14.6V7.9l6.4 3.36-6.4 3.34Z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our menu</h1>
+      <p>Freshly prepared food and drinks made for every moment of the day.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="menu-section-header reveal">
+        <div class="menu-ornament">
+          <svg viewBox="0 0 46 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <line x1="0" y1="7" x2="16" y2="7" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="23" cy="7" r="4" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="30" y1="7" x2="46" y2="7" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h2>Our Menu</h2>
+        <p>Freshly prepared food, handcrafted drinks, and delicious treats for every moment.</p>
+      </div>
+
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="menu-tab is-active" data-category="all" role="tab" aria-selected="true">All</button>
+        <button class="menu-tab" data-category="breakfast" role="tab" aria-selected="false">Breakfast</button>
+        <button class="menu-tab" data-category="lunch" role="tab" aria-selected="false">Lunch</button>
+        <button class="menu-tab" data-category="drinks" role="tab" aria-selected="false">Drinks</button>
+        <button class="menu-tab" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+      </div>
+
+      <div class="menu-category">
+        <div class="menu-card-grid">
+
+          <!-- Breakfast -->
+          <div class="menu-item" data-category="breakfast">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=700&q=80" alt="Classic breakfast plate with eggs, toast, and roasted potatoes" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Classic Breakfast</h3>
+                  <span class="menu-card-price">$9.00</span>
+                </div>
+                <p>Eggs, toast, fresh vegetables, and roasted potatoes.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="breakfast">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=700&q=80" alt="Stack of pancakes with fresh fruit and maple syrup" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Pancakes</h3>
+                  <span class="menu-card-price">$8.50</span>
+                </div>
+                <p>Fluffy pancakes served with fresh fruit and maple syrup.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="breakfast">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=700&q=80" alt="French toast topped with berries and cream" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>French Toast</h3>
+                  <span class="menu-card-price">$8.75</span>
+                </div>
+                <p>Golden-brown French toast with berries and cream.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="breakfast">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=700&q=80" alt="Breakfast sandwich with egg, cheese, and vegetables" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Breakfast Sandwich</h3>
+                  <span class="menu-card-price">$7.75</span>
+                </div>
+                <p>Egg, cheese, and fresh vegetables served in toasted bread.</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Lunch -->
+          <div class="menu-item" data-category="lunch">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=700&q=80" alt="Grilled chicken sandwich with fresh vegetables" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Grilled Chicken Sandwich</h3>
+                  <span class="menu-card-price">$10.50</span>
+                </div>
+                <p>Grilled chicken, fresh vegetables, and house sauce.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="lunch">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=700&q=80" alt="Café burger with cheese, lettuce, and tomato" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Café Burger</h3>
+                  <span class="menu-card-price">$12.50</span>
+                </div>
+                <p>Juicy beef patty with cheese, lettuce, tomato, and house sauce.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="lunch">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=700&q=80" alt="Bowl of creamy pasta with herbs" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Fresh Pasta</h3>
+                  <span class="menu-card-price">$11.50</span>
+                </div>
+                <p>Creamy pasta prepared with fresh ingredients and herbs.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="lunch">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80" alt="Fresh garden salad with seasonal vegetables" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Garden Salad</h3>
+                  <span class="menu-card-price">$8.00</span>
+                </div>
+                <p>Fresh seasonal vegetables with a light house dressing.</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Drinks -->
+          <div class="menu-item" data-category="drinks">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=700&q=80" alt="Shot of freshly brewed espresso" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Espresso</h3>
+                  <span class="menu-card-price">$3.00</span>
+                </div>
+                <p>Rich and aromatic freshly brewed espresso.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="drinks">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=700&q=80" alt="Cappuccino with creamy foam" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Cappuccino</h3>
+                  <span class="menu-card-price">$4.00</span>
+                </div>
+                <p>Smooth espresso with steamed milk and creamy foam.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="drinks">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=700&q=80" alt="Café latte with silky steamed milk" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Café Latte</h3>
+                  <span class="menu-card-price">$4.50</span>
+                </div>
+                <p>Espresso combined with silky steamed milk.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="drinks">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=700&q=80" alt="Iced coffee served over ice" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Iced Coffee</h3>
+                  <span class="menu-card-price">$4.25</span>
+                </div>
+                <p>Chilled freshly brewed coffee served over ice.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="drinks">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1600271886742-95c8f6a5b3d0?auto=format&fit=crop&w=700&q=80" alt="Glass of fresh seasonal fruit juice" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Fresh Juice</h3>
+                  <span class="menu-card-price">$5.00</span>
+                </div>
+                <p>Refreshing juice made from fresh seasonal fruits.</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Desserts -->
+          <div class="menu-item" data-category="desserts">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=700&q=80" alt="Slice of rich chocolate cake" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Chocolate Cake</h3>
+                  <span class="menu-card-price">$6.00</span>
+                </div>
+                <p>Rich chocolate cake with a smooth chocolate finish.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="desserts">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=700&q=80" alt="Slice of creamy cheesecake" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Cheesecake</h3>
+                  <span class="menu-card-price">$6.50</span>
+                </div>
+                <p>Creamy classic cheesecake with a buttery biscuit base.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="desserts">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1589375340956-e0e70b74ef2f?auto=format&fit=crop&w=700&q=80" alt="Soft and rich chocolate brownie" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Brownie</h3>
+                  <span class="menu-card-price">$4.50</span>
+                </div>
+                <p>Soft and rich chocolate brownie.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="menu-item" data-category="desserts">
+            <article class="menu-card">
+              <div class="menu-card-media">
+                <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=700&q=80" alt="Slice of classic tiramisu" loading="lazy" />
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-top">
+                  <h3>Tiramisu</h3>
+                  <span class="menu-card-price">$6.75</span>
+                </div>
+                <p>Classic Italian dessert with coffee, cream, and cocoa.</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Featured item -->
+      <div class="featured-item reveal">
+        <div class="featured-media" style="background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80');" role="img" aria-label="Signature caramel latte with latte art"></div>
+        <div class="featured-body">
+          <span class="featured-label">Chef's Favorite</span>
+          <h3>Signature Caramel Latte</h3>
+          <p>A smooth espresso drink with steamed milk and a subtle caramel finish.</p>
+          <span class="featured-price">$5.25</span>
+          <a href="contact.html" class="btn btn-primary">Order / Contact Us</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section--dark cta-band">
+    <h2>Looking for something delicious?</h2>
+    <p>Visit us or get in touch to learn more about today's offerings.</p>
+    <div class="hero-actions" style="justify-content: center;">
+      <a href="contact.html" class="btn btn-primary">Contact Us</a>
+      <a href="mailto:khdreamit@gmail.com?subject=Hello%20Caf%C3%A9%20Verde" class="btn btn-outline">Email Us</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo">Café <span>Verde</span></div>
+      <p>A cozy neighborhood café serving fresh food and handcrafted coffee since day one.</p>
+      <a class="btn btn-primary" href="mailto:khdreamit@gmail.com?subject=Hello%20Caf%C3%A9%20Verde">Email Us</a>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="footer-links">
+        <li><a href="mailto:khdreamit@gmail.com">khdreamit@gmail.com</a></li>
+        <li><a href="tel:+10000000000">+1 000 000 0000</a></li>
+        <li>123 Café Street, Your City</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow Us</h4>
+      <div class="social-inline">
+        <a href="https://facebook.com/YOUR_CAFE_PAGE" aria-label="Café Verde on Facebook" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg>
+        </a>
+        <a href="https://youtube.com/@YOUR_CAFE_CHANNEL" aria-label="Café Verde on YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.5s-.23-1.64-.94-2.36c-.9-.95-1.9-.95-2.36-1.01C16.87 2.8 12 2.8 12 2.8h-.01s-4.87 0-8.2.33c-.46.06-1.46.06-2.36 1.01C.72 4.86.5 6.5.5 6.5S.27 8.4.27 10.31v1.38c0 1.9.23 3.81.23 3.81s.22 1.64.93 2.36c.9.95 2.08.92 2.6 1.02 1.89.18 8.02.32 8.02.32s4.87 0 8.2-.33c.46-.06 1.46-.06 2.36-1.01.71-.72.94-2.36.94-2.36s.23-1.9.23-3.81v-1.38c0-1.9-.23-3.81-.23-3.81ZM9.6 14.6V7.9l6.4 3.36-6.4 3.34Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    &copy; 2026 Café Verde. All Rights Reserved.
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
